@@ -18,5 +18,10 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/perfil', 'HomeController@perfil')->name('perfil');
 Route::get('/cursos', 'HomeController@cursos')->name('e.cursos');
 Route::get('/manager', 'HomeController@manager')->name('e.manager');
+Route::get('/usuarios', 'HomeController@usuarios')->name('e.usuarios');
+Route::get('/roles', 'HomeController@roles')->name('e.roles');
+Route::get('/dependencias', 'HomeController@dependencias')->name('e.dependencias');
+Route::get('/categorias', 'HomeController@categorias')->name('e.categorias');

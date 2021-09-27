@@ -124,7 +124,7 @@ dir="ltr">
     width="40"></a>
     <div class="dropdown-menu dropdown-menu-right">
       <a class="dropdown-item"
-      href="student-account-edit.html">
+      href="{{route('perfil')}}">
       <i class="material-icons">edit</i> Mi perfil
     </a>
     <a class="dropdown-item"
@@ -191,7 +191,7 @@ dir="ltr">
       </li>
       <li class="sidebar-menu-item">
         <a class="sidebar-menu-button"
-        href="student-account-edit.html">
+        href="{{route('perfil')}}">
         <span class="sidebar-menu-text">Mi Perfil</span>
       </a>
     </li>
@@ -226,7 +226,7 @@ id="messages_menu">
 </li>
 <li class="sidebar-menu-item">
   <a class="sidebar-menu-button"
-  href="student-my-courses.html">
+  href="{{route('e.cursos')}}">
   <i class="sidebar-menu-icon sidebar-menu-icon--left material-icons">school</i> Mis Cursos
 </a>
 </li>
@@ -234,7 +234,7 @@ id="messages_menu">
 <div class="sidebar-heading">Instructor</div>
 <ul class="sidebar-menu sm-active-button-bg">
   <li class="sidebar-menu-item">
-    <a class="sidebar-menu-button" href="instructor-courses.html">
+    <a class="sidebar-menu-button" href="{{route('e.manager')}}">
       <i class="sidebar-menu-icon sidebar-menu-icon--left material-icons">import_contacts</i> Manager de Cursos
     </a>
   </li>
@@ -248,22 +248,22 @@ id="messages_menu">
     </a>
   </li>
   <li class="sidebar-menu-item">
-    <a class="sidebar-menu-button" href="instructor-courses.html">
+    <a class="sidebar-menu-button" href="{{route('e.usuarios')}}">
       <i class="sidebar-menu-icon sidebar-menu-icon--left material-icons">person_outline</i> Todos los Usuarios
     </a>
   </li>
   <li class="sidebar-menu-item">
-    <a class="sidebar-menu-button" href="instructor-courses.html">
+    <a class="sidebar-menu-button" href="{{route('e.roles')}}">
       <i class="sidebar-menu-icon sidebar-menu-icon--left material-icons">lock_open</i> Roles y Permisos
     </a>
   </li>
   <li class="sidebar-menu-item">
-    <a class="sidebar-menu-button" href="instructor-courses.html">
+    <a class="sidebar-menu-button" href="{{route('e.dependencias')}}">
       <i class="sidebar-menu-icon sidebar-menu-icon--left material-icons">tune</i> Dependencias
     </a>
   </li>
   <li class="sidebar-menu-item">
-    <a class="sidebar-menu-button" href="instructor-courses.html">
+    <a class="sidebar-menu-button" href="{{route('e.categorias')}}">
       <i class="sidebar-menu-icon sidebar-menu-icon--left material-icons">tune</i> Categorías
     </a>
   </li>

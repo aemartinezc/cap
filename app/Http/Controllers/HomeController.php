@@ -35,4 +35,29 @@ class HomeController extends Controller
     {
         return view('admin.manager');
     }
+
+    public function perfil()
+    {
+        return view('admin.perfil');
+    }
+
+    public function usuarios()
+    {
+        return view('admin.usuarios');
+    }
+
+    public function roles()
+    {
+        return view('admin.roles');
+    }
+
+    public function dependencias()
+    {
+        return view('admin.dependencias');
+    }
+
+    public function categorias()
+    {
+        return view('admin.categorias');
+    }
 }
